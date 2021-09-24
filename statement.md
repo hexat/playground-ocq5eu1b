@@ -18,3 +18,20 @@ let semNum: Int? = Optional.none // O valor nil foi atribuído
 print(semNum == nil) //mostra true
 ```
 
+# Optional Intro III
+
+Veja que elementos de um dicionários são intricicamente opcionais logo para fazer acesso aos elementos você deve desempacota-lo
+
+```swift runnable
+var msgHTTP = 
+  [200: "OK",
+   403: "Acesso Negado",
+   404: "Arquivo Não Encontrado",
+   500: "Erro interno no servidor"]
+```
+
+veja que aqui usamos a ! (exclamação) para forçar o desempacotamento. Só devemos fazer isso se tivermos certeza de que a chave 200 existe e tem um valor  
+
+```swift runnable
+print(msgHTTP[200]!) 
+```
