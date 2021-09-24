@@ -7,13 +7,14 @@ let declaracaoCurta: Int? = Int("42") //uso da ?
 let declaracaoLonga: Optional<Int> = Int("42") //Generics
 ```
 
-# Optional Intro
+# Optional Intro II
 
 há duas possibilidade some (valor desempacotado) e none (literal nil)
 
+```swift runnable
 let num: Int? = Optional.some(42) // O valor 42 foi empacotado
 let semNum: Int? = Optional.none // O valor nil foi atribuído
 
 print(semNum == nil) //mostra true
-
+```
 
