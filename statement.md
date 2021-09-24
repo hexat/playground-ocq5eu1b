@@ -1,9 +1,10 @@
-# Welcome!
+# Optional
 
-This Swift template lets you get started quickly with a simple one-page playground.
+Um Optional (opicional) em swift é uma enumeração de dois valores. Um valor atribuído de qualquer tipo e nil (null). Ou seja há duas opções, uma atribuída no nil (nulo).
 
 ```swift runnable
-print("Hello World!")
+let declaracaoCurta: Int? = Int("42") //uso da ?
+let declaracaoLonga: Optional<Int> = Int("42") //Generics
 ```
 
 # Advanced usage
